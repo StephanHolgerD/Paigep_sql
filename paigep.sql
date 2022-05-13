@@ -10,6 +10,7 @@
         P1.name "P1_name",
         P1.vorname "P1_vorname",
         GS1.geschlecht_bezeichnung "GS1_geschlecht_bezeichnung",
+        cast(OA1.AF_SSW as nvarchar(max)) "OA1_AF_SSW",
         O1.id_ordermanagement "O1_id_ordermanagement",
         L1.id_leistungsart "L1_id_leistungsart",
         MP1.priority "MP1_priority",
